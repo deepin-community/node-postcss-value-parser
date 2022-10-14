@@ -1,0 +1,53 @@
+node-postcss-value-parser (4.1.0-3) unstable; urgency=medium
+
+  * Team upload
+  * Bump debhelper from old 12 to 13.
+  * Update standards version to 4.6.0, no changes needed.
+  * Add "Rules-Requires-Root: no"
+  * Add debian/gbp.conf
+  * Fix filenamemangle
+  * Fix GitHub tags regex
+  * Drop nodejs dependency
+
+ -- Yadd <yadd@debian.org>  Fri, 12 Nov 2021 20:35:03 +0100
+
+node-postcss-value-parser (4.1.0-2) unstable; urgency=medium
+
+  * Reupload to unstable
+  * Use version 4 in watch file (use dversionmangle=auto)
+
+ -- Pirate Praveen <praveen@debian.org>  Sun, 20 Dec 2020 02:29:07 +0530
+
+node-postcss-value-parser (4.1.0-1) experimental; urgency=medium
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Use secure copyright file specification URI.
+  * Bump debhelper from deprecated 9 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update Vcs-* headers from URL redirect.
+  * Use canonical URL in Vcs-Git.
+  * Apply multi-arch hints.
+    + node-postcss-value-parser: Add Multi-Arch: foreign.
+
+  [ Pirate Praveen ]
+  * New upstream version 4.1.0
+  * Switch to dh-sequence-nodejs and autopkgtest-pkg-nodejs
+  * Bump Standards-Version to 4.5.1 (no changes needed)
+  * Use dh-sequence-nodejs auto install
+
+ -- Pirate Praveen <praveen@debian.org>  Sun, 20 Dec 2020 00:36:25 +0530
+
+node-postcss-value-parser (3.3.0-2) unstable; urgency=medium
+
+  * Move to main (node-postcss is in main)
+
+ -- Pirate Praveen <praveen@debian.org>  Sat, 16 Dec 2017 12:28:44 +0530
+
+node-postcss-value-parser (3.3.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #876367)
+
+ -- Pirate Praveen <praveen@debian.org>  Thu, 21 Sep 2017 16:59:53 +0530
